@@ -7,6 +7,7 @@ require('dotenv').config();
 
 const { TOKEN_FACEBOOK, TOKEN_INSTAGRAM } = process.env;
 
+app.use(cors());
 
 //User profile
 app.get('/me', function(req, res){
