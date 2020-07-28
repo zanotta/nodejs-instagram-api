@@ -1,5 +1,6 @@
 const express   = require('express');
 const axios     = require('axios').default;
+const cors      = require('cors');
 const api_base  = 'https://graph.instagram.com';
 const api_graph = 'https://graph.facebook.com';
 const app 		= express();
